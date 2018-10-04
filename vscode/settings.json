@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 0,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "editor.rulers": [
+      120
+    ],
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+  }
