@@ -10,8 +10,9 @@
     { "key": "cmd+r",                 "command": "editor.action.startFindReplaceAction" },
     { "key": "shift+cmd+r",           "command": "workbench.action.replaceInFiles",
                                          "when": "!editorFocus" },
-    { "key": "alt+cmd+g",             "command": "workbench.view.git" },
-    { "key": "ctrl+alt+f",            "command": "editor.action.formatDocument",
+    {
+      "key": "ctrl+alt+f",
+      "command": "editor.action.formatDocument",
       "when": "editorTextFocus && !editorReadonly" },
     { "key": "alt+cmd+p",             "command": "workbench.action.keepEditor" },
     { "key": "shift+cmd+b",           "command": "workbench.action.toggleSidebarVisibility" },
@@ -85,5 +86,44 @@
                                         "key": "alt+cmd+l",
                                         "command": "-toggleFindInSelection",
                                         "when": "editorFocus"
+                                      },
+                                      {
+                                        "key": "shift+cmd+c",
+                                        "command": "-workbench.action.terminal.openNativeConsole",
+                                        "when": "!terminalFocus"
+                                      },
+                                      {
+                                        "key": "shift+cmd+c",
+                                        "command": "gitlens.showCompareView"
+                                      },
+                                      {
+                                        "key": "alt+cmd+g",
+                                        "command": "gitlens.toggleZenMode"
+                                      },
+                                      {
+                                        "key": "ctrl+cmd+left",
+                                        "command": "-workbench.action.moveEditorToPreviousGroup"
+                                      },
+                                      {
+                                        "key": "ctrl+cmd+9",
+                                        "command": "-workbench.action.moveEditorToLastGroup"
+                                      },
+                                      {
+                                        "key": "alt+cmd+o",
+                                        "command": "workbench.action.moveEditorToNextGroup"
+                                      },
+                                      {
+                                        "key": "ctrl+cmd+right",
+                                        "command": "-workbench.action.moveEditorToNextGroup"
+                                      },
+                                      {
+                                        "key": "shift+f6",
+                                        "command": "editor.action.rename",
+                                        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+                                      },
+                                      {
+                                        "key": "f2",
+                                        "command": "-editor.action.rename",
+                                        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
                                       }
                                     ]

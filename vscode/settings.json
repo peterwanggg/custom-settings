@@ -11,5 +11,7 @@
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
     "explorer.confirmDelete": false,
-    "editor.wordWrap": "on",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.mode.active": "zen",
+    "tslint.enable": false,
   }
