@@ -4,14 +4,33 @@
     "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "Default Light+",
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "editor.rulers": [
       120
     ],
     "editor.minimap.enabled": false,
     "editor.renderIndentGuides": false,
     "explorer.confirmDelete": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.mode.active": "zen",
     "tslint.enable": false,
+    // "gitlens.views.repositories.location": "gitlens",
+    // "gitlens.views.fileHistory.location": "gitlens",
+    // "gitlens.views.lineHistory.location": "gitlens",
+    // "gitlens.views.compare.location": "gitlens",
+    // "gitlens.views.search.location": "gitlens",
+    // "gitlens.hovers.currentLine.over": "line",
+    "editor.acceptSuggestionOnEnter": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.editor.enablePreview": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.recentChange.command": "gitlens.diffWithPrevious",
+    "gitlens.mode.active": "zen",
+    "customizeUI.stylesheet": {
+      ".editor-actions": "display: none !important;",
+    },
+    "workbench.editor.revealIfOpen": true,
+    "workbench.tree.indent": 14,
+    "workbench.editor.showTabs": true,
+    // "gitlens.blame.highlight.enabled": false,
   }
